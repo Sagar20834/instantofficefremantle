@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.png";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
 import { FiMenu, FiX } from "react-icons/fi";
@@ -60,12 +60,20 @@ const Header = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14"
+            className="w-16 h-16 md:w-16 md:h-16 lg:w-16 lg:h-16"
           />
-          <p className="ml-2 text-xl md:text-3xl lg:text-4xl font-bold text-cyan-400">
+
+          <h1
+            className="px-2 py-2 text-3xl font-medium tracking-wide text-yellow-400
+                       border-2 border-blue-100 rounded-md font-"
+          >
+            Instant Office Fremantle
+          </h1>
+
+          {/* <p className="ml-2 text-xl md:text-3xl lg:text-4xl font-bold text-cyan-400">
             Instant<span className="text-violet-700">Office</span>
             <span className="text-red-500">Fremantle</span>
-          </p>
+          </p> */}
         </Link>
         <div className="lg:hidden" onClick={toggleMenu}>
           {menuOpen ? (
