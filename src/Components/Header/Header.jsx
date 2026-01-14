@@ -64,7 +64,7 @@ const Header = () => {
           />
 
           <h1
-            className="px-2 py-2 text-3xl font-medium tracking-wide text-yellow-400
+            className="px-2 py-2 text-xl md:text-3xl font-medium tracking-wide text-yellow-400
                        border-2 border-blue-100 rounded-md font-"
           >
             Instant Office Fremantle
