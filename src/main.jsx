@@ -11,6 +11,7 @@ import AboutUs from "./Components/ContactUs/ContactUs.jsx";
 import OfficeContactForm from "./Components/OfficeContactForm/OfficeContactForm.jsx";
 import OfficeListingPage from "./Components/OfficeSpacesList/OfficeListingPage.jsx";
 import OfficeSpaceFremantle from "./Components/OfficeSpacesList/OfficeSpaceFremantle.jsx";
+import ComingSoon from "./Components/CommingSoon.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
       // },
       {
         path: "/about-us",
-        element: <AboutUs />,
+        element: <ComingSoon />,
       },
       {
         path: "/contact-us",
@@ -100,10 +101,10 @@ const router = createBrowserRouter([
       //     },
       //   ],
       // },
-      // {
-      //   path: "*",
-      //   element: <PageNotFound />,
-      // },
+      {
+        path: "*",
+        element: <ComingSoon />,
+      },
     ],
   },
 ]);
