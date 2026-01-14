@@ -5,14 +5,14 @@ const ComingSoon = () => {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
       {/* Fog Effect */}
-      <div className="absolute inset-0 bg-gradient-to-t from-gray-200 via-transparent to-transparent opacity-30"></div>
+      <div className="absolute inset-0 bg-linear-to-t from-gray-200 via-transparent to-transparent opacity-30"></div>
 
       {/* Main Content */}
       <div className="relative z-10 max-w-md w-full p-6 bg-white shadow-2xl rounded-lg text-center space-y-6">
         {/* Rocket Animation */}
         <div className="relative flex justify-center items-end mb-6 h-2 "></div>
 
-        <h1 className="text-3xl font-bold  mb-4 bg-gradient-to-r from-pink-500 to-orange-400 text-transparent bg-clip-text">
+        <h1 className="text-3xl font-bold  mb-4 bg-linear-to-r from-pink-500 to-orange-400 text-transparent bg-clip-text">
           Updates Coming Soon!
         </h1>
         <p className="text-base text-gray-700 mb-4">
@@ -24,7 +24,7 @@ const ComingSoon = () => {
         </p>
         <Link
           to="/"
-          className="inline-block bg-gradient-to-r from-blue-500 to-teal-500 text-white py-2 px-4 rounded-lg font-semibold hover:opacity-90 transition duration-300"
+          className="inline-block bg-linear-to-r from-blue-500 to-teal-500 text-white py-2 px-4 rounded-lg font-semibold hover:opacity-90 transition duration-300"
         >
           Back to Home
         </Link>
